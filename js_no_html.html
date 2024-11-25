@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="main-body">
+
+    <div class="main">
+        <div class="calculator">
+            <form>
+                <!-- Display -->
+                <div class="display">
+                    <input id="meuDisplay" type="text" name="display" readonly>
+                </div>
+
+                <!-- Primeira linha de botões -->
+                <div>
+                    <input type="button" value="AC" class="operatorAC">
+                    <input type="button" value="DEL" class="operatorDEL">
+                    <input type="button" value="." class="caracterePonto">
+                    <input type="button" value="/" class="operatorDivisao">
+                </div>
+
+                <!-- Segunda linha de botões -->
+                <div>
+                    <input type="button" value="7" class="number">
+                    <input type="button" value="8" class="number">
+                    <input type="button" value="9" class="number">
+                    <input type="button" value="*" class="operatorMultiplicacao">
+                </div>
+
+                <!-- Terceira linha de botões -->
+                <div>
+                    <input type="button" value="4" class="number">
+                    <input type="button" value="5" class="number">
+                    <input type="button" value="6" class="number">
+                    <input type="button" value="-" class="operatorSubtracao">
+                </div>
+
+                <!-- Quarta linha de botões -->
+                <div>
+                    <input type="button" value="1" class="number">
+                    <input type="button" value="2" class="number">
+                    <input type="button" value="3" class="number">
+                    <input type="button" value="+" class="operatorAdicao">
+                </div>
+
+                <!-- Quinta linha de botões -->
+                <div>
+                    <input type="button" value="00" class="numberZeroZero">
+                    <input type="button" value="0" class="number">
+                    <input id="equal" type="button" value="=" class="operatorEqual">
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
